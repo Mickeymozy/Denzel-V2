@@ -36,12 +36,12 @@ let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
 
-let link = `https://whatsapp.com/channel/0029VaIRINGCXC3EussN4b2E`
+let link = `https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz`
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 乂───『 *INFO*』───乂 
-│ *Simple menu*
-│ *_TRY NOT TO LAUGH_*
+│ *@Mickey
+│ *_TRY_MY WEB_*
 ╰───────⳹
 ╭───────
 │  BotMenu
@@ -64,180 +64,13 @@ let str = `
 │  PluginMenu
 ╰───────
 
-*ALL LIST CMDS*
+*MY WEBSITE*
+*https://silver-carly-54.tiiny.site*
+*https://rosy-cheetah-m2mt9z.mystrikingly.com/*
+*https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144*
 
- *ᴀɪ* 
- .ᴀɪ
- .ʙᴜɢ
- .ʀᴇᴘᴏʀᴛ
- .ɢᴘᴛ
- .ᴅᴀʟʟᴇ
- .ʀᴇᴍɪɴɪ
- .ɢᴇᴍɪɴɪ
 
- *ᴛᴏᴏl* 
- .ᴄᴀʟᴄᴜʟᴀᴛᴏʀ
- .ᴛᴇᴍᴘᴍᴀɪʟ
- .ᴄʜᴇᴄᴋᴍᴀɪʟ
- .ᴛʀᴛ
- .ᴛᴛꜱ
-
-  *ɢʀᴏᴜᴘ* 
- .ʟɪɴᴋɢʀᴏᴜᴘ
- .ꜱᴇᴛᴘᴘɢᴄ
- .ꜱᴇᴛɴᴀᴍᴇ
- .ꜱᴇᴛᴅᴇꜱᴄ
- .ɢʀᴏᴜᴘ
- .ɢᴄꜱᴇᴛᴛɪɴɢ
- .ᴡᴇʟᴄᴏᴍᴇ
- .ᴀᴅᴅ
- .ᴋɪᴄᴋ
- .ʜɪᴅᴇᴛᴀɢ
- .ᴛᴀɢᴀʟʟ
- .ᴀɴᴛɪʟɪɴᴋ
- .ᴀɴᴛɪᴛᴏxɪᴄ
- .ᴘʀᴏᴍᴏᴛᴇ
- .ᴅᴇᴍᴏᴛᴇ
- .ɢᴇꜰʙɪᴏ
-
- *ᴅᴏᴡɴʟᴏᴀᴅ* 
-  .ᴀᴘᴋ
- .ꜰᴀᴄᴇʙᴏᴏᴋ
- .ᴍᴇᴅɪᴀꜰɪʀᴇ
- .ᴘɪɴᴛᴇʀᴇꜱᴛᴅʟ
- .ɢᴜᴛᴄʟᴏɴᴇ
- .ɢᴅʀɪᴠᴇ
- .ɪɴꜱʀᴀ
- .ʏᴛᴍᴘ3
- .ʏᴛᴍᴘ4
- .ᴘʟᴀʏ
- .ꜱᴏɴɢ
- .ᴠɪᴅᴇᴏ
- .ʏᴛᴍᴘ3ᴅᴏᴄ
- .ʏᴛᴍᴘ4ᴅᴏᴄ
- .ᴛɪᴋᴛᴏᴋ
-
- *ꜱᴇᴀʀᴄʜ* 
- .ᴘʟᴀʏ
- .ʏᴛꜱ
- .ɪᴍᴅʙ
- .ɢᴏᴏɢʟᴇ
- .ɢɪᴍᴀɢᴇ
- .ɪᴍɢ
- .ᴘɪɴᴛᴇʀᴇꜱᴛ
- .ᴡᴀʟʟᴘᴀᴘᴇʀ
- .ᴡɪᴋɪᴍᴇᴅɪᴀ
- .ʏᴛꜱᴇᴀʀᴄʜ
- .ʀɪɴɢᴛᴏɴᴇ
- .ʟʏʀɪᴄꜱ
-
- *ᴍᴀɪɴ* 
- .ᴘɪɴɢ
- .ᴀʟɪᴠᴇ>
- .ᴏᴡɴᴇʀ
- .ᴍᴇɴᴜ
- .ʜᴇʟᴘ
- .ɪɴꜰᴏʙᴏᴛ
-
- *ᴏᴡɴᴇʀ* 
- .ᴊᴏɪɴ
- .ʟᴇᴀᴠᴇ
- .ʙʟᴏᴄᴋ
- .ᴜɴʙʟᴏᴄᴋ
- .ꜱᴇᴛᴘᴘʙᴏᴛ
- .ᴀɴᴛɪᴄᴀʟʟ
- .ꜱᴇᴛꜱᴛᴀᴛᴜꜱ
- .ꜱᴇᴛɴᴀᴍᴇʙᴏᴛ
- .ᴀᴜᴛᴏᴛʏᴘɪɴɢ
- .ᴀʟᴡᴀʏꜱᴏɴʟɪɴᴇ
- .ᴀᴜᴛᴏʀᴇᴀᴅ
- .ᴀᴜᴛᴏꜱᴠɪᴇᴡ
- .ᴜᴘᴅᴀᴛᴇ
- .ʀᴇꜱᴛᴀʀᴛ
-
- *ꜱᴛᴀʟᴋ* 
-  .ᴛʀᴜᴇᴄᴀʟʟᴇʀ
-  .ɪɴꜱᴛᴀꜱᴛᴀʟᴋ
-  .ɢɪᴛʜᴜʙꜱᴛᴀʟᴋ
-
- *MAKER*
-
-  .blur
-  .difuminar2
-  .hornycard
-  .hornylicense
-  .gfx1
-  .gfx2
-  .gfx3
-  .gfx4
-  .gfx5
-  .gfx6
-  .gfx7
-  .gfx8
-  .gfx9
-  .gfx10
-  .gfx11
-  .gfx12
-  .simpcard
-  .itssostupid
-  .iss
-  .stupid
-  .tweet 
-  .lolicon
-  .ytcomment 
-
- *STICKER*
-
-  .emojimix 
-  .getsticker
-  .smaker
-  .stickerwithmeme 
-  .swmeme 
-  .swm
-  .sfull
-  .toimg 
-  .tovid
-  .trigger 
-  .ttp
-  .ttp2
-  .ttp3
-  .ttp4
-  .ttp5
-  .attp
-  .attp2
-  .attp3
-  .take 
-
- *ECONOMY*
-  .addgold 
-  .addxp 
-  .bank
-  .buych
-  .cock-fight 
-  .buy
-  .buyall
-  .daily
-  .deposit
-  .gamble
-  .give credit 
-  .levelup
-  .rank
-  .rob
-  .roulette
-  .wallet
-  .withdraw
-  .work
-
- *PLUGINS* 
-  .plugins
-  .install 
-  .reg 
-  .mysn
-  .unreg 
-
-*https://home.lazackorganisation.my.id*
-
-> FOOTBALL IS MY LIFE, CODING IS MY HOBBY
+>  CODDING IS EVERYONE
 `
 
     
