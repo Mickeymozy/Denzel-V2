@@ -65,7 +65,7 @@ I am automatic systeam(whatsapp bot) that can help to do something. search and g
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu2', 'help2']
+handler.command = ['menu3', 'help3']
 
 export default handler
 function clockString(ms) {
