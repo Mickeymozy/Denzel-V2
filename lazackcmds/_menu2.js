@@ -35,31 +35,49 @@ let readMore = more.repeat(850)
 let greeting = ucapan()
 let quote = quotes[Math.floor(Math.random() * quotes.length)];
 
-
-let link = `https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz`
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
-
 乂───『 *DENZEL BOT*』───乂 
 > Library : MICKEY INFO TECH
 > Version : 2.9.0
 > website : https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144
 > source : https://github.com/Mickeymozy/Denzel-V2
 
-      if you find error or want to upgrade to premium plan contact to the owner.
-      
-> Denzel is bot made up by Mickey
+@ Denzel is bot made up by Mickey
   *Thank you for your cooperation.* 
->Visit anyone 👇👇
-*MY WEBSITE*
+ 乂───『 *ENYOY MY BOT*』───乂
+${readMore}
+───『 *I N F O  C M D*』───
+> Try use shortcats to get the menu example *.botmenu*
+${readMore}
+『 *SHORTCUT MENU* 』 
+> *use this shortcuts*
+${readMore}
+┏━━━━━━━━━━━━━━┈⊷
+> *1.* BotMenu
+> *2.* OwnerMenu
+> *3.* GroupMenu
+> *4.* FunMenu
+> *5.* ReactionMenu
+> *6.* DownloaderMenu
+> *7.* GameMenu
+> *8.* LogoMenu
+> *9.* StickerMenu
+> *10.* AudioMenu
+> *11.* NewsMenu
+> *12.* EconomyMenu
+> *13.* AnimeMenu
+> *14.* NSFWMenu
+> *15.* ToolsMenu
+> *16.* AIMenu
+> *17.* ReligionMenu
+> *18.* PluginMenu
+┗━━━━━━━━━━━━━┈⊷
+*Pairing limk*
 *https://silver-carly-54.tiiny.site*
-*https://rosy-cheetah-m2mt9z.mystrikingly.com/*
-*https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144*
 
-
->  
-|⏣𝐌𝐀𝐃𝐄 𝐄𝐀𝐒𝐘 𝐛𝐲 𝐌ICKEY🥷
-*❒⁠⁠⁠⁠—————————— ❒⁠⁠⁠⁠—————————❒⁠⁠⁠⁠*
+> rememner to use the prefix and one of the commands above... use ${usedPrefix}report to direct send feedback
+`
 
     
 
@@ -67,7 +85,7 @@ let str = `
     
 
 
-   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, link)
+   conn.sendFile(m.chat, pp, 'perfil.jpg', str, m, null, rcanal)
     m.react(done)
 
 }
