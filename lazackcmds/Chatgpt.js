@@ -29,7 +29,7 @@ let handler = async (m, { text, conn }) => {
       await conn.sendMessage(
         m.chat,
         {
-          text: `${result}\n\n*~ Silva MD Bot*`,
+          text: `${result}\n\n*~ Mickey Ai*`,
           caption: '',
           image: { url: 'https://files.catbox.moe/8324jm.jpg' },
         },
