@@ -40,8 +40,19 @@ let link = `https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz`
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `
 乂───『 *INFO*』───乂 
-│ *@Mickey
-│ *_TRY_MY WEB_*
+│ *@Mickey*
+│ ╭────《🇹🇿《MICKEY-V2》🇹🇿》────
+┴  ╭─────────────
+│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
+│❒│⁠⁠⁠⁠ *CALENDER* : ${date}
+│❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
+│❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
+│❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
+│❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
+│❒│⁠⁠⁠⁠ *THEME* : *BRONZE*
+┬  ╰──────────────
+╰─── ··《🇹🇿《MICKEY-V2》🇹🇿》··─
 ╰───────⳹
 ╭───────
 │  BotMenu
@@ -85,7 +96,7 @@ let str = `
 }
 handler.help = ['main']
 handler.tags = ['group']
-handler.command = ['menu2', 'help2'] 
+handler.command = ['menu', 'help'] 
 
 export default handler
 function clockString(ms) {
