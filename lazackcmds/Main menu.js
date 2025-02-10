@@ -22,8 +22,8 @@ let handler = async m =>
 │  ReligionMenu
 │  PluginMenu
 ╰───────
-
->  CODDING IS EVERYONE
+> BOT SCRIPT https://github.com/Mickeymozy/Denzel-V2
+> CODDING IS EVERYONE
 
 
 `.trim()
