@@ -49,6 +49,6 @@ let handler = async m =>
   )
 handler.help = ['ruth']
 handler.tags = ['main']
-handler.command = ['card']
+handler.command = ['menu']
 
 export default handler
