@@ -1,7 +1,15 @@
 let handler = async m =>
   m.reply(
     `⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣷⣜⢿⣧⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠻⣿⣿⣿⣿⣦⠄⠄
->  To choose Menu type name of menu 
+   乂───『 *DENZEL BOT*』───乂 
+> Library : MICKEY INFO TECH
+> Version : 2.9.0
+> source : https://github.com/Mickeymozy/Denzel-V2
+> website : https://mickdadyhamza.websites.co.in/update/welcome-to-mickdady-hamza/2755144
+
+      if you find error or want to upgrade to premium plan contact to the owner.
+      
+    *To choose Menu type name of menu* 
 ╭───────
 │  BotMenu
 │  OwnerMenu
@@ -22,7 +30,6 @@ let handler = async m =>
 │  ReligionMenu
 │  PluginMenu
 ╰───────
-> BOT SCRIPT https://github.com/Mickeymozy/Denzel-V2
 > CODDING IS EVERYONE
 
 
