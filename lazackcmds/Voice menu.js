@@ -43,8 +43,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   await conn.sendMessage(m.chat, doc, { quoted: con })
 }
 
-handler.help = ['alive']
+handler.help = ['menu2']
 handler.tags = ['main']
-handler.command = /^(menu)$/i
+handler.command = /^(menu2)$/i
 
 export default handler
