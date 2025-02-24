@@ -1,12 +1,13 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/Mickeymozy/Denzel-V2@main/jusorts/Mickey.mp3'
-  let url = 'https://github.com/Mickeymozy/Denzel-V2'
+  var vn = '
+  var vn = 'https://cdn.jsdelivr.net/gh/Mickeymozy/Denzel-V2@main/jusorts/Mickey.mp3''
+  let url = 'https://github.com/Lazack28/Lazack-md'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/Kf6hbmh.jpeg'
+  let img = 'https://i.imgur.com/QMyKIPq.jpeg'
   let con = {
-    key: {q
+    key: {
       fromMe: false,
       participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
       ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}),
@@ -25,15 +26,15 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     mimetype: 'audio/mpeg',
     ptt: true,
     waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: 'Mickey',
+    fileName: 'lazack',
 
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'MICKEY™ ',
-        body: 'Mickey md',
+        title: 'ℒ𝒜𝒵𝒜𝒞𝒦 ℳ𝒟 𝒜ℒℐ𝒱ℰ',
+        body: 'Lazack md',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz',
+        sourceUrl: 'https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -43,8 +44,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   await conn.sendMessage(m.chat, doc, { quoted: con })
 }
 
-handler.help = ['menu2']
+handler.help = ['alive']
 handler.tags = ['main']
-handler.command = /^(menu2)$/i
+handler.command = /^(alive)$/i
 
 export default handler
