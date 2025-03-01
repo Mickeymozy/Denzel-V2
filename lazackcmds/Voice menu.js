@@ -1,11 +1,11 @@
+
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = '
-  var vn = 'https://cdn.jsdelivr.net/gh/Mickeymozy/Denzel-V2@main/jusorts/Mickey.mp3''
-  let url = 'https://github.com/Lazack28/Lazack-md'
+  var vn = 'https://cdn.jsdelivr.net/gh/Mickeymozy/Denzel-V2@main/jusorts/Mickey.mp3'
+  let url = 'https://github.com/Mickeymozy/Denzel-V2'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.imgur.com/QMyKIPq.jpeg'
+  let img = 'https://i.imgur.com/2rN3Xy7.jpeg'
   let con = {
     key: {
       fromMe: false,
@@ -31,10 +31,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: 'ℒ𝒜𝒵𝒜𝒞𝒦 ℳ𝒟 𝒜ℒℐ𝒱ℰ',
+        title: 'MICKEY™ ',
         body: 'Lazack md',
         thumbnailUrl: img,
-        sourceUrl: 'https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9',
+        sourceUrl: 'https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
@@ -44,8 +44,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   await conn.sendMessage(m.chat, doc, { quoted: con })
 }
 
-handler.help = ['alive']
+handler.help = ['menu2']
 handler.tags = ['main']
-handler.command = /^(alive)$/i
+handler.command = /^(menu2)$/i
 
 export default handler
