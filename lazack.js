@@ -384,7 +384,7 @@ async function connectionUpdate(update) {
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `ᴅᴇɴᴢᴇʟ 𝐃𝐞𝐯𝐢𝐜𝐞 𝐬𝐮𝐜𝐜𝐞𝐟𝐮𝐥𝐥𝐲 𝐜𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐭𝐨 𝐲𝐨𝐮𝐫𝐞 𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩. 𝐞𝐧𝐣𝐨𝐲 𝐮𝐬𝐢𝐧𝐠 𝐢𝐭`
+    const msg = `*MICKEY BOT CONNECTED SUCCESSFUL! START USING AND ENYOY TO USE BOT*`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
